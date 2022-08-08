@@ -1,16 +1,3 @@
-/*************************************
- * https://everythingsmarthome.co.uk
- * 
- * This is an MQTT connected fingerprint sensor which can 
- * used to connect to your home automation software of choice.
- * 
- * You can add and remove fingerprints using MQTT topics by
- * sending the ID through the topic.
- * 
- * Simply configure the Wifi and MQTT parameters below to get
- * started!
- *
- */
 
 #include <ArduinoJson.h>
 #include <PubSubClient.h>
